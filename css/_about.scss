@@ -1,0 +1,53 @@
+.about-img {
+  position: relative;
+}
+
+.img-box {
+  // position: absolute;
+  border: 3px solid $black-color;
+  top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+  @extend %center;
+}
+
+.about-content {
+  color: $white-color;
+  text-align: center;
+
+  a {
+    color: $black-color;
+    background-color: $white-color;
+    text-decoration: none;
+    padding: 8px 20px;
+    font-size: 20px;
+    border: 3px solid $black-color;
+
+    &:hover {
+      background-color: $black-color;
+      color: $white-color;
+      border: 3px solid $white-color;
+    }
+  }
+
+  img {
+    display: block;
+    margin: auto;
+  }
+
+  h3 {
+    padding-top: 40px;
+  }
+
+  span {
+    text-transform: uppercase;
+    letter-spacing: 12px;
+  }
+}
+
+
+
+
+
+
+/*# sourceMappingURL=about.css.map */

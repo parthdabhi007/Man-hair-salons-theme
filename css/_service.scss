@@ -1,0 +1,30 @@
+
+.service{
+    text-align: center;
+    position: relative;
+
+    .line{
+        content: " ";
+        // position: absolute;
+        height: 2px;
+        background-color: $black-color;
+        top: 50%;
+        // left: 50%;
+        // transform: translate(-50%, -50%);
+        @extend %center;
+    }
+}
+.service-text{
+    color: $gray-color;
+    &:hover{
+        color: $black-color;
+    }
+}
+
+.service-box{
+    text-align: center;
+}
+.service-box:hover img{
+    transform: rotate(360deg);
+    transition: all 0.5s;
+}

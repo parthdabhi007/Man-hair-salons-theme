@@ -1,0 +1,14 @@
+.container-nav{
+    max-width: 1440px;
+}
+.navbar{
+    // background-color: $black-transparent;
+    background-color: rgba(256, 130, 76, 1);
+}
+.nav-item a:hover{
+    background-color: $white-color;
+    color: $black-color;
+}
+.nav-link{
+    color: $white-color;
+}

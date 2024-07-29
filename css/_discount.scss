@@ -1,0 +1,53 @@
+.container-discount{
+    max-width: 1440px;
+    margin: auto;
+}
+.discount-bg-img{
+    position: relative;
+    background-image: url(../image/discount-bg-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.discount-content{
+    // position: absolute;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    top: 50%;
+    @extend %center;
+    color: $white-color;
+    text-align: center;
+
+    a{
+        text-decoration: none;
+        background-color: $white-color;
+        color: $black-color;
+        padding: 10px 40px;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    
+        &:hover{
+            background-color: $black-color;
+            color: $white-color;
+        }
+    }
+    p{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+}
+
+
+.discount-black{
+    background-color: $black-transparent;
+    width: 100%;
+    height: 400px;
+}
+

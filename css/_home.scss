@@ -1,0 +1,68 @@
+.container-home{
+    max-width: 1440px;
+    margin: auto;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: $gray-color;
+}
+
+.home-bg-img{
+    background-image: url(../image/Background-img-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.home-bg-black{
+    background-color: $black-transparent;
+    // background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    width: 100%;
+}
+
+.home-text{
+    // position: absolute;
+    top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%); 
+    @extend %center;
+    text-align: center; 
+    color: $white-color;  
+
+
+    a{
+        text-decoration: none;
+        background-color: $white-color;
+        color: $black-color;
+        padding: 10px 40px;
+        text-transform: uppercase;
+    
+        &:hover{
+            background-color: $black-color;
+            color: $white-color;
+        }
+    }
+
+    p{
+        font-size: 20px;
+        padding-bottom: 50px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+
+    .line{
+        content: " ";
+        position: absolute;
+        height: 2px;
+        width: 30%;
+        background-color: $white-color;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);   
+    }
+}
+
+

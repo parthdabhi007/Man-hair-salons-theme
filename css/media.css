@@ -1,0 +1,328 @@
+/* xs mobile */
+@media (max-width:575px){
+    .home-text h2{
+        font-size: 20px;
+    }
+    .home-text p{
+        font-size: 10px;
+        padding-bottom: 50px;
+    }
+    .home-text .line{
+        width: 30%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);   
+    }
+    .home-text a{
+        padding: 5px 20px;
+        display: block;
+    }
+    .box h2{
+        width: 97%;
+    }
+    .page-content h2{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    .para-heading p{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .form-box input{
+        padding: 10px 20px;
+        width: 90%;
+    }
+    .img-box{
+        height: 90%;
+        width: 90%;
+    }
+    .about-content{
+        padding-top: 70px;
+    }
+    .about-content p{
+        padding: 20px 30px;
+    }
+    .service h2{
+        padding-bottom: 45px;
+        font-size: 30px;
+    }
+    .service .line{
+        width: 30%;
+    }
+    .service-box img{
+        padding: 20px 0px 10px 0px;
+    }
+    .shop .line{
+        width: 30%;
+    }
+    .team .line{
+        width: 30%;
+        top: 55px;
+    }
+    .team-logo{
+        top: 45%;
+    }
+    .plan-heading .line{
+        width: 30%;
+    }
+    .footer-box-1{
+        text-align: center;
+    }
+    .footer-box-2{
+        text-align: center;
+        padding-top: 40px;
+    }
+    .footer-box-3{
+        text-align: center;
+        padding-top: 40px;
+    }
+
+}
+
+/* sm mobile */
+@media (min-width:576px){
+    .home-text h2{
+        font-size: 25px;
+    }
+    .home-text p{
+        font-size: 10px;
+        padding-bottom: 50px;
+    }
+    .home-text .line{
+        width: 30%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);   
+    }
+    .home-text a{
+        padding: 5px 20px;
+        display: inline-block;
+    }
+    .box h2{
+        width: 97%;
+        bottom: 5px;
+        left: 8px;
+    }
+    .page-content h2{
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+    .para-heading p{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .form-box input{
+       width: 90%;
+    }
+    .img-box{
+        height: 90%;
+        width: 90%;
+    }
+    .about-content{
+        padding-top: 70px;
+    }
+    .about-content p{
+        padding: 20px 30px;
+    }
+    .service h2{
+        padding-bottom: 45px;
+        font-size: 30px;
+    }
+    .service .line{
+        width: 30%;
+    }
+    .service p, .service-text{
+        padding: 5px 50px;
+    }
+    .service-box img{
+        padding: 20px;
+    }
+    .shop .line{
+        width: 30%;
+    }
+    .team .line{
+        width: 30%;
+    }
+    .team-logo{
+        top: 55%;
+    }
+    .plan-heading .line{
+        width: 30%;
+    }
+    .footer-box-1{
+        text-align: center;
+    }
+    .footer-box-2{
+        text-align: center;
+        padding-top: 40px;
+    }
+    .footer-box-3{
+        text-align: center;
+        padding-top: 40px;
+    }
+
+}
+
+/* md tablet */
+@media (min-width:768px){
+    .home-text h2{
+        font-size: 33px;
+    }
+    .home-text p{
+        font-size: 15px;
+        padding-bottom: 50px;
+    }
+    .home-text a{
+        padding: 7px 25px;
+    }
+    .page-content h2{
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .box h2{
+        width: 97%;
+        bottom: 10px;
+    }
+    .form-box input{
+        width: 90%;
+     }
+     .about-content p{
+        padding: 20px 100px;
+    }
+    .service p, .service-text{
+        padding: 5px 70px;
+    }
+    .service .line{
+        width: 25%;
+    }
+    .shop .line{
+        width: 25%;
+    }
+    .team .line{
+        width: 25%;
+    }
+    .team-logo{
+        top: 63%;
+    }
+    .plan-heading .line{
+        width: 25%;
+    }
+}
+
+/* lg laptop */
+@media (min-width:992px){
+    .home-text h2{
+        font-size: 38px;
+    }
+    .box h2{
+        width: 97%;
+        bottom: 0px;
+        left: 5px;
+    }
+    .page-content h2{
+        font-size: 27px;
+    }
+    .form-box input{
+        width: 90%;
+     }
+     .about-content{
+        padding-top: 40px;
+    }
+    .about-content p{
+        padding: 20px 30px;
+    }
+    .service p, .service-text{
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+    .service-box h3{
+        font-size: 23px;
+    }
+    .service .line{
+        width: 20%;
+    }
+    .shop .line{
+        width: 20%;
+    }
+    .team .line{
+        width: 20%;
+    }
+    .team-logo{
+        top: 40%;
+    }
+    .plan-heading .line{
+        width: 20%;
+    }
+    .footer-box-1{
+        text-align: start;
+    }
+    .footer-box-2{
+        text-align: start;
+        padding-top: 0px;
+    }
+    .footer-box-3{
+        text-align: start;
+        padding-top: 0px;
+    }
+    
+}
+
+/* xl desktop */
+@media (min-width:1200px){
+    .home-text a{
+        padding: 10px 40px;
+    }
+    .home-text h2{
+        font-size: 45px;
+    }
+    .about-content p{
+        padding: 30px 80px 40px 90px;
+        font-size: 17px;
+    }
+    .page-content h2{
+        font-size: 30px;
+    }
+    .service .line{
+        width: 15%;
+    }
+    .shop .line{
+        width: 15%;
+    }
+    .team .line{
+        width: 15%;
+    }
+    .team-logo{
+        top: 45%;
+    }
+    .plan-heading .line{
+        width: 15%;
+    }
+}
+
+/* xxl large desktop */
+@media (min-width:1400px){
+    .home-text h2{
+        font-size: 50px;
+    }
+    .page-content h2{
+        font-size: 35px;
+    }
+    .about-content{
+        padding-top: 50px;
+    }
+    .about-content p{
+        padding: 30px 80px 40px 90px;
+        font-size: 20px;
+    }
+    .service p, .service-text{
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+    .service-box h3{
+        font-size: 30px;
+    }
+    .team-logo{
+        top: 50%;
+    }
+
+}

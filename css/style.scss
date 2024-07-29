@@ -1,0 +1,42 @@
+$white-color: #fff;
+$black-color: #000;
+$white-transparent:rgb(255, 255, 255,0.8);
+$black-transparent: rgba(0, 0, 0, 1);
+$gray-color:gray;
+$light-gray:lightgray;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+// @import "colors";
+@import "navbar";
+@import "home";
+@import "page";
+@import "about";
+@import "service";
+@import "discount";
+@import "shop";
+@import "team";
+@import "price&list";
+@import "footer&copyright";
+
+
+
+%center{
+    position: absolute;
+    // top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+// @mixin top($value){
+//     top:$value;
+// }

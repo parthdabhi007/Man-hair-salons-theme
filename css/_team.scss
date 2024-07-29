@@ -1,0 +1,65 @@
+
+.team{
+    position: relative;
+    text-align: center;
+    color: $white-color;
+
+    .line{
+        content: " ";
+        position: absolute;
+        height: 2px;
+        width: 15%;
+        background-color: $white-color;
+        top: 55px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+ 
+.team-box-1{
+    background-color: $white-color;
+    text-align: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+.team-content a{
+    text-decoration: none;
+    color: $black-color;
+    background-color: $white-color;
+    padding: 8px 50px;
+    border: 2px solid $black-color;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    &:hover{
+        background-color: $black-color;
+        color: $white-color;
+        
+    }
+}
+.team-content .team-logo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.team-content h3{
+    padding-top: 90px;
+}
+
+
+.img-border{
+    border: 8px solid white;
+    height: 144px;
+    width: 144px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+}
+
+
+.team-content:hover .img-border{
+    border-color: black;
+}
